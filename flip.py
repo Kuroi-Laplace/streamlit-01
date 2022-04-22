@@ -1,6 +1,10 @@
 import streamlit as st
 import pandas as pd
 import pickle
+import tabulate
+import seaborn as sns
+import matplotlib
+import matplotlib.pyplot as plt
 import streamlit.components.v1 as components
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import confusion_matrix
