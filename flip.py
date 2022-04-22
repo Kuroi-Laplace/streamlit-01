@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import pickle
+import sklearn
 import tabulate
 import seaborn as sns
 import matplotlib
